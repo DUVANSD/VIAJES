@@ -1,1 +1,1 @@
-https://duvansd.github.io/VIAJES-/ventas/
+https://duvansd.github.io/VIAJES/ventas/
