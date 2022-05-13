@@ -1,0 +1,54 @@
+body{
+    font-family: 'Square Peg', cursive;
+}
+.contenedor{
+    margin: 0px auto;
+    width:600px;
+}
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+}
+.text{
+    text-align: center;
+}
+.columna{
+    background:whitesmoke;
+    color:black;
+    border:1px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow:5px  5px 10px rgb(0, 215, 243);
+    width:30%;
+    box-sizing: border-box;
+    
+}
+.precio{
+    font-size:50px;
+    color:rgb(49, 177, 177);
+}
+.btn-precio{
+    text-decoration: none;
+    background:lemonchiffon;
+    padding:5px;
+    color:black;
+    border:2px solid black;
+    border-radius: 10px;
+    display:block;   
+}
+.btn-precio:hover{
+    background:thistle;
+}
+
+
+@media(max-width:700px){
+    .columna{
+       width:45%;
+    }
+}
+@media(max-width:400px){
+    .columna{
+        width:100%;
+    }
+}
